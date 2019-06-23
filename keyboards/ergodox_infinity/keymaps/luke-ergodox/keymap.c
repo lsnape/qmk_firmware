@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *    +-----+-----+-----+
  *    | PGUP|     |     |
  *    +-----+ ENT | SPC |
- *    | PGDN|     |     |
+ *    | ESC |     |     |
  *    +-----+-----+-----+
  */
              TG(L2),  KC_6,   KC_7,    KC_8,    KC_9,   KC_0,     KC_MINS,
@@ -70,7 +70,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                               KC_LEFT, KC_DOWN, KC_UP,  KC_RIGHT, KC_RGUI,
              KC_RALT, KC_RCTL,
              KC_PGUP,
-             KC_PGDN, KC_ENT, KC_SPC
+             KC_ESC , KC_ENT, KC_SPC
     ),
 
 [L1] = LAYOUT_ergodox( // layer 1 : function layers
